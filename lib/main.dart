@@ -20,6 +20,7 @@ void main() {
         ChangeNotifierProvider(create: (_) => CartProvider()),
       ],
       child: const TrendifyApp(),
+
     ),
   );
 }
